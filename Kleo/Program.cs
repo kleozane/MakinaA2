@@ -12,6 +12,7 @@ Console.WriteLine($"1. {audi.Marka} {audi.Modeli}       2. {bmw.Marka} {bmw.Mode
 
 int opsioni = Convert.ToInt32(Console.ReadLine());
 
+// Ky eshte nje koment qe do na dali anej matan!
 if (opsioni == 1)
 {
     audi.Specifikimet(audi);
